@@ -1,6 +1,5 @@
 layout: sidebar
 style: dark
-include: [".well-known"]
 
 plugins:
   - jekyll-octicons
