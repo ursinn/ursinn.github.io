@@ -1,0 +1,17 @@
+---
+layout: none
+permalink: .well-known/matrix/support
+---
+{
+    "admins": [
+        {
+            "email_address": "matrix@ursinn.dev",
+            "matrix_id": "@ursinn:ursinn.dev",
+            "role": "admin"
+        },
+        {
+            "email_address": "matrix-security@ursinn.dev",
+            "role": "security"
+        }
+    ]
+}
