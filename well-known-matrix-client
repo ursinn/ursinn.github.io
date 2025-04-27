@@ -3,6 +3,16 @@ layout: none
 permalink: .well-known/matrix/client
 ---
 {
+    "cc.etke.synapse-admin": {
+        "asManagedUsers": [
+            "^@whatsappbot:ursinn\\.dev$",
+            "^@whatsapp_[0-9]+:ursinn\\.dev$"
+        ],
+        "menu": [],
+        "restrictBaseUrl": [
+            "https://matrix.ursinn.dev"
+        ]
+    },
     "m.homeserver": {
         "base_url": "https://matrix.ursinn.dev"
     },
